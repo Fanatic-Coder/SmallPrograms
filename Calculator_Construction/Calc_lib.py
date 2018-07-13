@@ -22,7 +22,7 @@ def aggregatetoall():
     aggregate = int(input("\nEnter your aggregate(stones) kg: "))
     cementtot = int(aggregate / 3)
     sandtot = int(aggregate)
-    print("For %d kg aggregate, you will need %d kg sand and %d kg cement! \n \n" % (aggregate, sandtot, cementtot))
+    print("For %d kg aggregate, you will need %d kg sand and %d kg cement!\n\n" % (aggregate, sandtot, cementtot))
 
 
 def recommend():
