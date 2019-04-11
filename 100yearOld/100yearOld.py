@@ -19,3 +19,5 @@ elif(age > 100): #When you are beyond 100 years old
     yearof100 = 2018 - 100
     print("Well Done! You 're beyond 100 years old!")
     print("You Closed 100 years old " + str(yearsago) + " years ago! And the year was " + str(yearof100) + "! Have a Long Life!")
+
+input("\n Press a key to exit.")
