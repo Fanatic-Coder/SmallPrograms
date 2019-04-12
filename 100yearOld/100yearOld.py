@@ -1,3 +1,5 @@
+from getch import pause_exit
+
 fname = input("Enter your first name: ")
 lname = input("Enter your last name: ")
 
@@ -20,4 +22,4 @@ elif(age > 100): #When you are beyond 100 years old
     print("Well Done! You 're beyond 100 years old!")
     print("You Closed 100 years old " + str(yearsago) + " years ago! And the year was " + str(yearof100) + "! Have a Long Life!")
 
-input("\n Press a key to exit.")
+pause_exit(0, "Press any key to exit...")
