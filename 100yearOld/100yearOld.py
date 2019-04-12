@@ -8,6 +8,7 @@ yearof100 = int()
 yearsago = int()
 # Asks the user to input his/her birth date and calculate his/her age
 age = int(input("Enter your age: "))
+print()
 
 if age < 100:
     yearsstill = 100 - age  # How many years user got until he/she gets 100 years old
@@ -23,4 +24,5 @@ elif age > 100:  # When user is beyond 100 years old
     print("You Closed 100 years old " + str(yearsago) + " years ago!"
                                                         " And the year was " + str(yearof100) + "! Have a Long Life!")
 
+print()
 pause_exit(0, "Press any key to exit...")
